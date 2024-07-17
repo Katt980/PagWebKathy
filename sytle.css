@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital@0;1&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "PT Serif", serif;
+    font-family: "Roboto Flex", sans-serif;
 }
 
 html {
@@ -18,11 +17,13 @@ img {
 }
 
 h1 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Bona Nova SC", serif;
     font-size: clamp(5rem, 4vw, 6rem); /* Cambié 'vm' a 'vw' */
     font-weight: 100;
     color: #f3ecec;
     user-select: none
+    font-style: italic;
+
 }
 
 body {
